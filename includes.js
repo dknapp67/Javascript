@@ -6,3 +6,9 @@ soliloquy.includes('nonexistent');  // This string doesn't appear
 soliloquy.includes('TO BE');        // String inclusion is case-sensitive
 soliloquy.includes('To be', 1);     // Can you guess what this one means?
 soliloquy.includes("o be,", 1);     // A hint for the previous one
+
+console.log(soliloquy);
+
+soliloquy.charAt(0);
+soliloquy.charAt(1);
+soliloquy.charAt(2);
