@@ -10,7 +10,14 @@
 			let lastName = "Hartl";
 			console.log(firstName, lastName);
 		</script> -->
-		<script src="includes.js"></script>
+		<!-- <script src="includes.js"></script> -->
+
+		<script>
+			const daysOfTheWeek = ["sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+			let now = new Date();
+			let dayName = daysOfTheWeek[now.getDay()];
+			alert('Hello, world! Happy ${dayName}.');
+		</script>
 	</head>
 	<body>
 		<h1>Hello, world!</h1>
